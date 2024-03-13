@@ -20,7 +20,7 @@ export default class StarMapScreen extends Component {
                 <View style={{ flex: 0.3, marginTop: 20, alignItems: 'center' }}>
                 <Text 
                 // style={styles.titleText}
-                // style={{styles.titleText}}
+                 style={{styles.titleText}}
                 // style=styles.titleText
                 // style={titleText}
                 >Star Map</Text>
@@ -48,11 +48,11 @@ export default class StarMapScreen extends Component {
                         //     })
                         // }}
 
-                        // onChangeText={(text) => {
-                        //     this.setState({
-                        //         longitude: text
-                        //     })
-                        // }}
+                         onChangeText={(text) => {
+                            this.setState({
+                                 longitude: text
+                             })
+                         }}
                     />
 
                     <TextInput
